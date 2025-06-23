@@ -8,6 +8,5 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableJpaRepositories(basePackages = "com.moonrider.identity.repository")
 @EnableTransactionManagement
 public class DatabaseConfig {
-    // Database configuration handled by Spring Boot auto-configuration
-    // Additional custom configurations can be added here if needed
+    
 }
